@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Agregar Alumno</title>
+</head>
+<body>
+    <h1>Nuevo alumno</h1>
+    <form name="formAlumno" method="post" action="agregar_registro.php">
+        <table>
+            <tr>
+                <td>Nombres</td>
+                <td>
+                    <input type="text" name="nombres" required>
+                </td>
+            </tr>
+            <tr>
+                <td>Apellido Paterno</td>
+                <td>
+                    <input type="text" name="ape_paterno" required>
+                </td>
+            </tr>
+            <tr>
+                <td>Apellido Materno</td>
+                <td>
+                    <input type="text" name="ape_materno">
+                </td>
+            </tr>
+            <tr>
+                <td colspan="2">
+                    <button type="submit">Guardar</button>
+                </td>
+            </tr>
+        </table>
+    </form>
+</body>
+</html>
